@@ -1,0 +1,13 @@
+.header {
+  background-color: #0271bc;
+  position: fixed;
+  height: 44px;
+  width: 44px;
+  line-height: 44px;
+  &__image {
+    margin-left: 13px;
+    // Se sube para arriba, preguntad o revisar
+    // display: block;
+    // margin: auto;
+  }
+}
