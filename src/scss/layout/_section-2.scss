@@ -4,10 +4,17 @@
   row-gap: 45px;
   background-color: #eff9ff;
   text-align: center;
+  @media all and (min-width: 768px) {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+  }
   &__title {
     font-size: 24px;
     font-family: $font-title;
     margin-top: 30px;
+    @media all and (min-width: 768px) {
+      grid-column: span 3;
+    }
   }
   &__article {
     font-family: $font-main;
@@ -38,6 +45,9 @@
       background-color: $letter-color;
       color: $button-color;
       border: solid 2px $button-color;
+    }
+    @media all and (min-width: 768px) {
+      grid-column: span 3;
     }
   }
 }
