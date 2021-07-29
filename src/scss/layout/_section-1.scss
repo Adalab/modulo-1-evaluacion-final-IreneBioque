@@ -4,7 +4,6 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  // margin: 30px 15px 45px; preguntar si lo puedo poner por separado
   margin-top: 30px;
   margin-bottom: 45px;
   &__small {
@@ -32,5 +31,11 @@
     text-align: center;
     font-weight: 500;
     border-radius: 25px;
+    transition: color 2s ease-in, background-color 2s ease-in, transform 2s;
+    &:hover {
+      background-color: $button-color;
+      color: $letter-color;
+      transform: scale(1.2);
+    }
   }
 }
