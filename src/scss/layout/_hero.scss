@@ -7,7 +7,6 @@
   background-size: cover;
   background-position: center;
   height: 100vh;
-  width: 100%;
   &__title {
     font-size: 42px;
     font-family: $font-title;
@@ -25,15 +24,9 @@
   }
   &__image {
     background-color: $letter-color;
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
+    @include images;
     // para colocarlo abajo
     position: relative;
     top: 130px;
-    // para centrar la flecha
-    display: flex;
-    justify-content: center;
-    align-items: center;
   }
 }
