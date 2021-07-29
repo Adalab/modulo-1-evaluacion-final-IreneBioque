@@ -9,3 +9,12 @@
   align-items: center;
   justify-content: center;
 }
+@keyframes rotate {
+  from {
+    transform: rotateZ(0);
+  }
+  to {
+    transform: rotateZ(360deg);
+    background-color: #304268;
+  }
+}
