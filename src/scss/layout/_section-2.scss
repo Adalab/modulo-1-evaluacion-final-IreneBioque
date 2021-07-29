@@ -33,5 +33,11 @@
     line-height: 45px;
     border-radius: 25px;
     margin-bottom: 45px;
+    transition: color 2s ease-in, background-color 2s ease-in, border 1s ease-in;
+    &:hover {
+      background-color: $letter-color;
+      color: $button-color;
+      border: solid 2px $button-color;
+    }
   }
 }
