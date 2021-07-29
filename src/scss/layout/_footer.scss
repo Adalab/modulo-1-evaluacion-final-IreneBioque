@@ -11,6 +11,9 @@
     @include images;
     position: relative;
     bottom: 25px;
+    &:hover {
+      animation: rotate 3s;
+    }
   }
   &__list {
     margin: 15px;
