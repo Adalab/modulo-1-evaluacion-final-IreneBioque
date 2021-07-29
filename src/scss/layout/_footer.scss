@@ -1,0 +1,27 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: $font-main;
+  color: $letter-color;
+  background-color: #304268;
+  &__image {
+    background-color: $letter-color;
+    @include images;
+    position: relative;
+    bottom: 25px;
+  }
+  &__list {
+    margin: 15px;
+    text-align: center;
+    &--link {
+      padding: 5px;
+    }
+  }
+  &__paragraph {
+    margin-bottom: 45px;
+    text-align: center;
+    line-height: 1.5;
+  }
+}
