@@ -105,7 +105,7 @@ And then:
 
 ## Colaboradores 🖊️ / Partners 🖊️
 
-- **Adalab** -**Realización de Adalab Starter Kit**-[Adalab](https://github.com/Adalab)
+- **Adalab** -**Realización de Adalab Starter Kit** [Adalab](https://github.com/Adalab)
 
 ## Licencia 📄 / Licence 📄
 
