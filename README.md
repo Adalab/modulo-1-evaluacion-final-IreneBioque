@@ -4,6 +4,11 @@ Este proyecto consiste en una página web para distintos dispositivos
 
 This project consists of a website for different devices.
 
+## Información de interes ⚠️
+
+He trabajado con las ramas, trabajando en la rapa developer, y mergeando a main. En la rama developer he hecho algún cambio respecto a la main, pero no lo he mergeado porque no era lo que se pedia en el ejercicio.
+😋 Gracias por leerme 😋
+
 ## Comenzando 🚀 / Starting 🚀
 
 Estas instrucciones te permitirán obtener una copia del proyecto en funcionamiento en tu máquina local para propósitos de desarrollo y pruebas.
