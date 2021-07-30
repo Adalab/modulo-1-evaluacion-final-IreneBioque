@@ -76,8 +76,8 @@ npm run docs
 
 Y a continuación:
 
-1.  Sube tu repo a la carpeta docs/ que se te acaba de generar
-2.  Entra en la pestaña settings de tu repo
+1.  Sube tu repo a la carpeta `docs/` que se te acaba de generar
+2.  Entra en la pestaña settings de tu repositorio
 3.  En el apartado de GitHub Pages activa la opción **master branch/docs folder**
 
 Enter the command
@@ -109,9 +109,9 @@ And then:
 
 ## Licencia 📄 / Licence 📄
 
-Este proyecto está bajo la Licencia (MIT License) mira el archivo [LICENSE](LICENSE) para más detalles
+Este proyecto está bajo la Licencia MIT License mira el archivo [LICENSE](LICENSE) para más detalles
 
-This project is licensed under the MIT License (MIT License) see the [LICENSE](LICENSE) file for more details.
+This project is licensed under the MIT License MIT License see the [LICENSE](LICENSE) file for more details.
 
 ## Gracias 🎁 / Thanks 🎁
 
