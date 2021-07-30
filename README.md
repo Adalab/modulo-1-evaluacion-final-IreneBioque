@@ -101,11 +101,11 @@ And then:
 
 ## Autores ✒️ / Authors ✒️
 
-- **Irene Bioque** [IreneBioque](https://github.com/IreneBioque)
+- **Irene Bioque** [Github](https://github.com/IreneBioque)
 
 ## Colaboradores 🖊️ / Partners 🖊️
 
-- **Adalab** -**Realización de Adalab Starter Kit** [Adalab](https://github.com/Adalab)
+- **Adalab** -**Realización de Adalab Starter Kit** [Github](https://github.com/Adalab)
 
 ## Licencia 📄 / Licence 📄
 
