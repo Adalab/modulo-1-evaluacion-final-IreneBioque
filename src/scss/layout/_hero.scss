@@ -14,33 +14,42 @@
     color: $letter-color;
     text-transform: uppercase;
     text-align: center;
+    line-height: 1.2;
     word-spacing: 100vw;
-    padding: 10px;
     // para colocarlo en su sitio
-    margin-top: 200px;
+    margin-top: 250px;
 
     @media all and (min-width: 768px) {
+      margin-top: 450px;
       font-size: 80px;
-      margin-top: 380px;
+    }
+    @media all and (min-width: 1200px) {
+      margin-top: 550px;
+      font-size: 100px;
     }
   }
   &__paragraph {
     font-size: 16px;
     font-family: $font-main;
     color: $letter-color;
-    margin: 20px;
+    margin-top: 20px;
     @media all and (min-width: 768px) {
       font-size: 24px;
     }
+    @media all and (min-width: 1200px) {
+      margin: 0;
+    }
   }
   &__image {
-    background-color: $letter-color;
-    @include images;
+    @include icon;
     // para colocarlo abajo
     position: relative;
-    top: 75px;
+    top: 60px;
     @media all and (min-width: 768px) {
-      top: 30px;
+      top: 45px;
+    }
+    @media all and (min-width: 1200px) {
+      top: 20px;
     }
   }
 }
