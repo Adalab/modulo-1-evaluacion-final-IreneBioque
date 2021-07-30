@@ -5,3 +5,13 @@ $font-title: "Roboto Slab", serif;
 // colors
 $button-color: #f26002;
 $letter-color: #ffffff;
+
+//arrows
+@mixin images {
+  height: 45px;
+  width: 45px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
