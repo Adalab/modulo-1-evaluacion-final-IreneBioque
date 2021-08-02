@@ -1,0 +1,20 @@
+.section-3 {
+  display: none;
+  background-color: $button-color;
+  @media all and (min-width: 768px) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 10px;
+    &__title {
+      grid-column: span 2;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+    &__subtitle {
+      text-align: center;
+    }
+    &__paragraph {
+      text-align: left;
+    }
+  }
+}
