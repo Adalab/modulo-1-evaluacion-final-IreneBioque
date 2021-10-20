@@ -1,9 +1,31 @@
-.header {
-  background-color: #0271bc;
-  position: fixed;
-  height: 44px;
-  width: 44px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.menu {
+  display: none;
+  &__content {
+    background-color: #0271bc;
+    position: fixed;
+    height: 44px;
+    width: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  &__list {
+    display: none;
+    position: fixed;
+    width: 44px;
+
+    &--link {
+      background-color: #0271bc;
+      padding: 10px;
+      text-align: center;
+    }
+  }
+}
+.menu:checked ~ ul {
+  display: block;
+  top: 44px;
+}
+.fas,
+.fab {
+  color: white;
 }
