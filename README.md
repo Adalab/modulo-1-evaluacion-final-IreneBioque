@@ -1,13 +1,8 @@
-# Evaluación final del módulo 1
+# WEB-LAYOUT
 
-Este proyecto consiste en una página web para distintos dispositivos
+Este proyecto consiste en la maquetación de una página web responsive.
 
-This project consists of a website for different devices.
-
-## Información de interes ⚠️
-
-He trabajado con las ramas, trabajando en la rapa developer, y mergeando a main. En la rama developer he hecho algún cambio respecto a la main, pero no lo he mergeado porque no era lo que se pedia en el ejercicio.
-😋 Gracias por leerme 😋
+This project consists of the layout of a responsive website.
 
 ## Comenzando 🚀 / Starting 🚀
 
